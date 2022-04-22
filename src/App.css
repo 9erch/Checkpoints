@@ -1,0 +1,12 @@
+.espacment{
+    margin: 30px !important;
+}
+.menu-center{
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(88, 0, 93);   
+}
+.nav-link{
+    color: aliceblue !important;
+}
