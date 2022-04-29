@@ -1,4 +1,3 @@
-
 import './App.css';
 import Cart from './Model/cart';
 import React from "react";
@@ -11,6 +10,26 @@ function App() {
   return (
     <div className="App">
       <Menu />
+      <div className='title'>
+
+ <h1 className='title red'>khalil ghanmi</h1>
+ <Container>
+  <Row >
+ <Col xs={6}>
+ <img src="/imageInSrc.jpg" width={600}/>
+
+ </Col>
+
+ <Col xs={6}>
+ <img src="/imageInPublic.jpg" width={600} />
+
+ </Col>
+
+ </Row>
+ </Container>
+  
+</div>
+ 
       <Forum />
       <Model />
      <Container>
