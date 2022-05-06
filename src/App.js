@@ -6,9 +6,12 @@ import Mycartes from './Model/objet';
 import Forum from './Model/Forum';
 import Model from './Model/Model';
 import Menu from './Model/Menu';
+
+
 function App() {
   return (
     <div className="App">
+
       <Menu />
       <div className='title'>
 
@@ -16,12 +19,12 @@ function App() {
  <Container>
   <Row >
  <Col xs={6}>
- <img src="/imageInSrc.jpg" width={600}/>
+ <img src="imageInSrc.jpg" width={600}/>
 
  </Col>
 
  <Col xs={6}>
- <img src="/imageInPublic.jpg" width={600} />
+ <img src="imageInPublic.jpg" width={600} />
 
  </Col>
 
