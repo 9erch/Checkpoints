@@ -1,6 +1,6 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-
+import { Card, Col, Container, Row, Button } from 'react-bootstrap'
+import Myteams from './Objet-team';
 function About_us_page() {
   return (
     
@@ -11,7 +11,6 @@ function About_us_page() {
     <Row >
    <Col xs={6}>
    <img src="about-us.png" width={600}/>
-  
    </Col>
   
    <Col xs={6} className='class-about'>
@@ -24,7 +23,25 @@ function About_us_page() {
    </Col>
   
    </Row>
+   <Row>
+       {
+   Myteams.map(Myteams =>
+    <Col xs={4}>
+   <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={Myteams.imageUrlt} />
+    <Card.Body>
+      <Card.Title>{Myteams.titlet}</Card.Title>
+      <Card.Text>
+      {Myteams.descriptiont}
+      </Card.Text>
+      <Button href={Myteams.linkto}>Link portfolio</Button>
+    </Card.Body>
+  </Card>
+  </Col>
    
+   )
+  }
+   </Row>
    </Container>  
 
 

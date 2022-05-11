@@ -11,7 +11,7 @@ function Menu() {
     <Nav.Link href="/">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="/About-us">About Us</Nav.Link>
+    <Nav.Link href="/About">About Us</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="/Services-page">Services</Nav.Link>
