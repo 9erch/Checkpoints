@@ -4,6 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 function About() {
   return (
     <Container>
+        <div className="blues title" >
+        <h3>About us</h3>
+    </div>
     <Row >
    <Col xs={6}>
    <img src="about-us.png" width={600}/>

@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Model/Home';
 import Contactus from './Model/Contact-us';
 import FAQ from './Model/FAQ';
+import Services from './Model/Services';
+import Services_page from './Model/Services-page';
 function App() {
   return (
     <div className="App">
@@ -21,13 +23,18 @@ function App() {
       <Route path="api" element={<About />} />
       <Route path="Contact-us" element={<Contactus />} />
       <Route path="FAQ" element={<FAQ />} />
+      <Route path="Services-page" element={<Services_page />} />
       
       </Routes>
     </BrowserRouter>
     
      <Row>
-       <Footer />
+      
      </Row>
+     <Footer>
+     <Footer />
+     </Footer>
+     
     </div>
   );
 }

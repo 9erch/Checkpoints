@@ -3,8 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 import About from './About'
 import Contactus from './Contact-us'
 import myportfolio from './Objet-portfolio'
+import myservices from './Objet-services'
 import Portfolio from './Portfolio'
 import Progress from './Progress'
+import Services from './Services'
 import ControlledCarousel from './Slide'
 
 function Home() {
@@ -14,6 +16,23 @@ function Home() {
 
         <ControlledCarousel />
       <About />
+      <div className="blues title" >
+        <h3>Services</h3>
+    </div> 
+      
+      <Container>
+  <Row >
+    {
+    myservices.map(myservices =>
+    <Col xs={4}>
+    {/* <Cart  url={Mycartes.imageUrl} titre={Mycartes.title} descriptions={Mycartes.description}  /> */}
+    <Services  url={myservices.imageUrls} titre={myservices.titles} descriptions={myservices.descriptions}  />
+    </Col>
+   )
+  }
+      
+      </Row>
+      </Container>
       <Progress />
       {/* <Progress />
       <Forum />
