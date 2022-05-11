@@ -1,12 +1,18 @@
 import React from 'react'
-import { Nav } from 'react-bootstrap'
+import { Col, Container, Nav, Row } from 'react-bootstrap'
 
 
 function Menu() {
   return (
     <div>
-     
-        <Nav  className='menu-center'>
+      
+       <Row className='menu-center'>
+       <Col xs={3}>
+       
+       <Nav.Link href="/"><img src="/logo-khalil-ghanmi-finale-blanc.svg" width={150}/></Nav.Link>
+       </Col>
+       <Col xs={6}>
+       <Nav>
   <Nav.Item>
     <Nav.Link href="/">Home</Nav.Link>
   </Nav.Item>
@@ -25,7 +31,8 @@ function Menu() {
   <Nav.Item>
   </Nav.Item>
 </Nav>
-
+       </Col>
+       </Row>
 
     </div>
   )

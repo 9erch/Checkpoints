@@ -24,6 +24,10 @@ function About_us_page() {
   
    </Row>
    <Row>
+   <div className="blues title" >
+        <h3>Les équipes</h3>
+    </div> 
+      
        {
    Myteams.map(Myteams =>
     <Col xs={4}>
@@ -34,7 +38,7 @@ function About_us_page() {
       <Card.Text>
       {Myteams.descriptiont}
       </Card.Text>
-      <Button href={Myteams.linkto}>Link portfolio</Button>
+      <Button href={Myteams.linkto} target="_blank">Link portfolio</Button>
     </Card.Body>
   </Card>
   </Col>

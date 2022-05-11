@@ -12,7 +12,7 @@ function Footer() {
     
    </Col>
         <Col xs={4} >
-   <img src="/logo.png" width={170}/>
+   <img src="/logo-khalil-ghanmi-finale-blanc.svg" width={300}/>
    </Col>
   
    <Col xs={6} className="footer-text ">
