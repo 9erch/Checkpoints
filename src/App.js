@@ -1,55 +1,33 @@
 import './App.css';
-import Cart from './Model/cart';
 import React from "react";
 import { Col, Container, Row } from 'react-bootstrap';
-import Mycartes from './Model/objet';
-import Forum from './Model/Forum';
-import Model from './Model/Model';
 import Menu from './Model/Menu';
-
-
+import About from './Model/About';
+import Footer from './Model/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Model/Home';
+import Contactus from './Model/Contact-us';
+import FAQ from './Model/FAQ';
 function App() {
   return (
     <div className="App">
-
       <Menu />
-      <div className='title'>
-
- <h1 className='title red'>khalil ghanmi</h1>
- <Container>
-  <Row >
- <Col xs={6}>
- <img src="imageInSrc.jpg" width={600}/>
-
- </Col>
-
- <Col xs={6}>
- <img src="imageInPublic.jpg" width={600} />
-
- </Col>
-
- </Row>
- </Container>
-  
-</div>
- 
-      <Forum />
-      <Model />
-     <Container>
-  <Row >
-   
-    {
-    
-   Mycartes.map(Mycartes =>
-    <Col xs={3}>
-    <Cart  url={Mycartes.imageUrl} titre={Mycartes.title} descriptions={Mycartes.description}  />
-    </Col>
-   
-   )
-  }
+<BrowserRouter>
+      <Routes>
+      <Route exact path="/" element={<Home />}>         
       
-      </Row>
-      </Container>
+      </Route>
+      <Route path="About-us" element={<About />} />
+      <Route path="api" element={<About />} />
+      <Route path="Contact-us" element={<Contactus />} />
+      <Route path="FAQ" element={<FAQ />} />
+      
+      </Routes>
+    </BrowserRouter>
+    
+     <Row>
+       <Footer />
+     </Row>
     </div>
   );
 }
