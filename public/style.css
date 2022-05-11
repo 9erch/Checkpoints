@@ -19,7 +19,12 @@ video{
     justify-content: center;
     padding: 10px;
     font-weight: bold;
-    background-color: rgb(88, 0, 93);   
+    background-color: rgb(88, 0, 93); 
+    
+      
+}
+.menu-text{
+    margin-top: 15px;
 }
 .nav-link{
     color: aliceblue !important;

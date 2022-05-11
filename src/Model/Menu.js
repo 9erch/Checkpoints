@@ -12,7 +12,7 @@ function Menu() {
        <Nav.Link href="/"><img src="/logo-khalil-ghanmi-finale-blanc.svg" width={150}/></Nav.Link>
        </Col>
        <Col xs={6}>
-       <Nav>
+       <Nav className='menu-text'>
   <Nav.Item>
     <Nav.Link href="/">Home</Nav.Link>
   </Nav.Item>
