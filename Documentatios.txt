@@ -1,0 +1,7 @@
+Comment ouvrir web sites 
+1) Create React App ==> "npx create-react-app mon-app"
+2) enter the project folder ==> "cd mon-app"
+3) install  Add bootstrap ==> "npm install react-bootstrap bootstrap"
+4) install  Add React Router ==> "npm i -D react-router-dom"
+5) install  Add axios ==> "npm i axios"
+6) open project => "npm start"
