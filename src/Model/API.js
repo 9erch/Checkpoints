@@ -16,7 +16,7 @@ function Shop() {
   return (
     <div>
         
-        <h3 className='class-about blues'>Contactez Nous</h3>
+        <h3 className='class-about blues'>Shop</h3>
 
     </div>
   )
