@@ -26,7 +26,7 @@ function Home() {
     myservices.map(myservices =>
     <Col xs={4}>
     {/* <Cart  url={Mycartes.imageUrl} titre={Mycartes.title} descriptions={Mycartes.description}  /> */}
-    <Services  url={myservices.imageUrls} titre={myservices.titles} descriptions={myservices.descriptions}  />
+    <Services  url={myservices.imageUrls} titre={myservices.titles} descriptions={myservices.descriptions}/>
     </Col>
    )
   }
@@ -48,7 +48,7 @@ function Home() {
     myportfolio.map(myportfolio =>
     <Col xs={3}>
     {/* <Cart  url={Mycartes.imageUrl} titre={Mycartes.title} descriptions={Mycartes.description}  /> */}
-    <Portfolio  url={myportfolio.imageUrl} titre={myportfolio.title} descriptions={myportfolio.description}  />
+    <Portfolio  url={myportfolio.imageUrl} titre={myportfolio.title} descriptions={myportfolio.description} lien={myportfolio.lien}   />
     </Col>
    )
   }

@@ -16,7 +16,7 @@ import { Button, Card,} from "react-bootstrap";
         <Card.Text>
        {proprs.descriptions}
         </Card.Text>
-     <Button variant="primary">Voir Plus</Button>
+     <Button href={proprs.lien} target="_blank" variant="primary" >Voir Plus</Button>
      </Card.Body>
       </Card>
     

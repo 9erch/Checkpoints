@@ -4,10 +4,10 @@ import Myteams from './Objet-team';
 function About_us_page() {
   return (
     
-    <Container>
-        <div className="blues title" >
-        <h3>About us</h3>
-    </div>
+    
+        <div>
+        <h3 className='class-about blues title-page'>About us</h3>
+        <Container>
     <Row >
    <Col xs={6}>
    <img src="about-us.png" width={600}/>
@@ -48,7 +48,7 @@ function About_us_page() {
    </Row>
    </Container>  
 
-
+   </div>
   )
 }
 

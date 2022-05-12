@@ -7,8 +7,8 @@ import Progress from './Progress';
 function Services_page() {
   return (
     <div>
-        <div className="blues title" >
-        <h3>Services</h3>
+        <div>
+        <h3 className='class-about blues title-page'>Services</h3>
     </div> 
         <Container className='title'>
   <Row >
