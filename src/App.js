@@ -10,6 +10,7 @@ import Contactus from './Model/Contact-us';
 import FAQ from './Model/FAQ';
 import Services_page from './Model/Services-page';
 import About_us_page from './Model/About-us-page';
+import Shop from './Model/API';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Route path="FAQ" element={<FAQ />} />
       <Route path="Services-page" element={<Services_page />} />
       <Route path="Contact-us" element={<Contactus />} />
+      <Route path="Shop" element={<Shop />} />
       </Routes>
     </BrowserRouter>
     
